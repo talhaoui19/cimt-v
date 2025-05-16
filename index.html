@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercices et Tâches types : contrainte induite</title>
     <style>
+      :root {
+        --primary: #0b3d91;
+        --secondary: #1a4fb3;
+        --accent: #f72585;
+        --light: #f8f9fa;
+        --dark: #212529;
+        --gray: #6c757d;
+        --font-main: "Montserrat", sans-serif;
+        --font-heading: "Poppins", sans-serif;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@600;700&display=swap");
+
       * {
         box-sizing: border-box;
         margin: 0;
@@ -59,12 +72,12 @@
         justify-content: center;
       }
 
-       @media (max-width:991px) {
-      .bg img{
-        width: 100%;
-       }
-         }
-      
+      @media (max-width: 991px) {
+        .bg img {
+          width: 100%;
+        }
+      }
+
       .hero {
         padding: 1rem;
         background: linear-gradient(to right, #0b3d91, #3ba0f2);
@@ -150,6 +163,19 @@
           font-size: 1.5rem;
         }
       }
+
+      footer {
+        background: var(--primary);
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        margin-top: 5rem;
+      }
+
+      .footer-content h3 {
+        font-size: 1.5rem;
+        font-family: var(--font-heading);
+      }
     </style>
   </head>
   <body>
@@ -173,7 +199,13 @@
       <div class="video-card">
         <div class="video-number">1</div>
         <div class="video-wrapper">
-          <iframe src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747307567/v-1_1_1_rx1em4.mp4"></iframe>
+          <video controls preload="metadata" width="100%">
+            <source
+              src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747307567/v-1_1_1_rx1em4.mp4"
+              type="video/mp4"
+            />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
         </div>
         <div class="video-info">
           <h3>Introduction à la méthode contrainte induite</h3>
@@ -183,7 +215,10 @@
       <div class="video-card">
         <div class="video-number">2</div>
         <div class="video-wrapper">
-          <iframe src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747310381/v-2_1_1_klyard.mp4"></iframe>
+          <video controls preload="metadata" width="100%">
+            <source src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747310381/v-2_1_1_klyard.mp4" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
         </div>
         <div class="video-info">
           <h3>La non-utilisation apprise</h3>
@@ -193,7 +228,13 @@
       <div class="video-card">
         <div class="video-number">3</div>
         <div class="video-wrapper">
-          <iframe src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747312773/v-3_wa26y9.mp4"></iframe>
+          <video controls preload="metadata" width="100%">
+            <source src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747312773/v-3_wa26y9.mp4" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+          <iframe
+            src=""
+          ></iframe>
         </div>
         <div class="video-info">
           <h3>Le déroulement de la méthode</h3>
@@ -203,7 +244,13 @@
       <div class="video-card">
         <div class="video-number">4</div>
         <div class="video-wrapper">
-          <iframe src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747332475/v-4_z5kvx9.mp4"></iframe>
+          <video controls preload="metadata" width="100%">
+            <source src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747332475/v-4_z5kvx9.mp4" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+          <iframe
+            src=""
+          ></iframe>
         </div>
         <div class="video-info">
           <h3>La contrainte du membre supérieur sain</h3>
@@ -213,7 +260,10 @@
       <div class="video-card">
         <div class="video-number">5</div>
         <div class="video-wrapper">
-          <iframe src="https://drive.google.com/file/d/1C7260sw-YwfLnmmk746WVd_U6lGngCVO/preview" ></iframe>
+          <video controls preload="metadata" width="100%">
+            <source src="https://drive.google.com/file/d/1C7260sw-YwfLnmmk746WVd_U6lGngCVO/preview" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
         </div>
         <div class="video-info">
           <h3>Le sur-entraînement</h3>
@@ -223,7 +273,13 @@
       <div class="video-card">
         <div class="video-number">6</div>
         <div class="video-wrapper">
-          <iframe src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747337419/v-6_ragqso.mp4"></iframe>
+          <video controls preload="metadata" width="100%">
+            <source src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747337419/v-6_ragqso.mp4" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+          <iframe
+            src=""
+          ></iframe>
         </div>
         <div class="video-info">
           <h3>Le transfert des acquis</h3>
@@ -233,7 +289,10 @@
       <div class="video-card">
         <div class="video-number">7</div>
         <div class="video-wrapper">
-          <iframe src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747342248/v-7_jpedeh.mp4"></iframe>
+          <video controls preload="metadata" width="100%">
+            <source src="https://res.cloudinary.com/dzvf36zth/video/upload/v1747342248/v-7_jpedeh.mp4" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
         </div>
         <div class="video-info">
           <h3>Documentation</h3>
@@ -243,22 +302,39 @@
       <div class="video-card">
         <div class="video-number">8</div>
         <div class="video-wrapper">
-          <iframe src="./v-8.mp4"></iframe>
+          <video controls preload="metadata" width="100%">
+            <source src="./v-8.mp4" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
         </div>
         <div class="video-info">
-          <h3>Exercices et Taches Types: contrainte induite 1</h3>
+          <h3>Exercices et Tâches Types: contrainte induite 1</h3>
         </div>
       </div>
 
       <div class="video-card">
         <div class="video-number">9</div>
         <div class="video-wrapper">
-          <iframe src="./v-9.mp4"></iframe>
+          <video controls preload="metadata" width="100%">
+            <source src="./v-9.mp4" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
         </div>
         <div class="video-info">
           <h3>Exercices et Tâches Types: contrainte induite 2</h3>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="footer-content">
+        <h3>Thérapie par Contrainte Induite</h3>
+        <p>Méthode de rééducation validée par la communauté scientifique</p>
+        <p style="margin-top: 2rem">
+          © 2025 Tous droits réservés - Guebli Aymen
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
+
